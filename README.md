@@ -130,7 +130,7 @@ The format of items in the table is:
 ```json
 {
   "id": "2UxAkvKkkWNwqZi9H0OzWw",
-  "coordinates": "{...}"
+  "coordinates": "{...}",
   "cuisine": "Asian",
   "insertedAtTimestamp": "10/10/2020-20:23:33",
   "location": {
