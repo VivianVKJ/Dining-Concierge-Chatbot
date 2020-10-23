@@ -10,7 +10,7 @@ Ziwei Wang(zw2337), Haodong Huang(hh2322)
 
 Build and deploy the frontend application in AWS S3 bucket
 
-![image-20201013114044499](/Users/vivian/Library/Application Support/typora-user-images/image-20201013114044499.png)
+![image-20201013114044499](resources/image-20201013114044499.png)
 
 ### API Gateway
 
@@ -21,7 +21,7 @@ Enable CORS on API methods
 - OPTIONS: Return default response.
 - POST: Frontend makes API calls `/chatbot - POST` to API Gateway
 
-![image-20201013114404664](/Users/vivian/Library/Application Support/typora-user-images/image-20201013114404664.png)
+![image-20201013114404664](resources/image-20201013114404664.png)
 
 ### Lambda (LF0)
 
@@ -62,7 +62,7 @@ Set up Lex with three intents:
   * **Lambda initialization and validation**: Lambda Function  `ValidateInput`
   * **Fulfillment**: Lambda Function `foodSuggestion`
 
-  ![image-20201013122842358](/Users/vivian/Library/Application Support/typora-user-images/image-20201013122842358.png)
+  ![image-20201013122842358](resources/image-20201013122842358.png)
 
 * Greeting 
 
@@ -156,7 +156,7 @@ After connecting to es in the program, use `es.bulk(bulk_file)` to store multipl
 
 Poll from SQS every 1 min using CloudWatch by creating a new rule to set up a event trigger in CloudWatch that runs **every minute** and invokes lambda funtion `sendSuggestion` (**LF2**)
 
-![image-20201013160059950](/Users/vivian/Library/Application Support/typora-user-images/image-20201013160059950.png)
+![image-20201013160059950](resources/image-20201013160059950.png)
 
 ##### - Lambda (LF2)
 
@@ -212,11 +212,15 @@ Lambda function `sendSuggestion` is triggered by the CloudWatch Event above.
       return response
   ```
 
-### Demo [[Video](https://youtu.be/2g2yUCrzQ2g)]
+### Demo
 
-* Dining Suggestion:
+* Youtube [[Video](https://youtu.be/2g2yUCrzQ2g)]
+* Github [[Video]](resouces/Assignment1_Demo.mp4)
+* Dining Suggestion Screenshot: 
 
-![image-20201013173512358](/Users/vivian/Library/Application Support/typora-user-images/image-20201013173512358.png)
+![image-20201013173512358](resources/image-20201013173512358.png)
 
 * Greeting, Thank you, and SNS
+
+![image-20201013173759200](resources/image-20201013173759200.png)
 
