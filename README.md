@@ -4,6 +4,9 @@
 
 A serverless, microservice-driven Dining Concierge Chatbot that sends you restaurant suggestions given a set of preferences that you provide the chatbot through conversation.
 
+Contact: vivianvvang@gmail.com, hh2322@nyu.edu
+
+
 👉 [Chatbot Link](http://chatbot.viviancc.s3-website-us-east-1.amazonaws.com/)
 
 👉 [Demo Video](https://youtu.be/2g2yUCrzQ2g)
