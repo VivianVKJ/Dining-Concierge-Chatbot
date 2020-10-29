@@ -3,9 +3,6 @@ A serverless, microservice-driven Dining Concierge Chatbot that sends you restau
 
 **Cloud Computing Fall20 Assignment 1**
 
-Ziwei Wang(zw2337), Haodong Huang(hh2322)
-
-
 ### Front End
 
 Build and deploy the frontend application in AWS S3 bucket
