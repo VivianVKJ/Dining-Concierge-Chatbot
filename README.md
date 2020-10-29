@@ -1,6 +1,8 @@
 # Dining Concierge Chatbot
 A serverless, microservice-driven Dining Concierge Chatbot that sends you restaurant suggestions given a set of preferences that you provide the chatbot through conversation.
 
+Demo: 👉  [Youtube](https://youtu.be/2g2yUCrzQ2g)
+
 **Cloud Computing Fall20 Assignment 1**
 
 ### Front End
@@ -211,8 +213,6 @@ Lambda function `sendSuggestion` is triggered by the CloudWatch Event above.
 
 ### Demo
 
-* Youtube [[Video](https://youtu.be/2g2yUCrzQ2g)]
-* Github [[Video]](resouces/Assignment1_Demo.mp4)
 * Dining Suggestion Screenshot: 
 
 ![image-20201013173512358](resources/image-20201013173512358.png)
